@@ -1,0 +1,192 @@
+@media screen and (max-width: 1300px){
+
+.rgt img{
+    margin-right: 20px;
+}
+
+.post-cont{
+    display: block;
+}
+.post-cont img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+}
+
+@media screen and (max-width: 1000px){
+
+#title{
+    font-size: 45px;
+    line-height: 45px;
+}
+#sub-title{
+    width: 90%;
+    font-size: 18px;
+}
+    
+.rgt img{
+    width: 200px;
+}
+    
+}
+
+@media screen and (max-width: 900px){
+
+
+.proj-card .txt_con_proj h1{
+    font-size: 19px;
+    width: 100%;
+}
+
+.proj-card .txt_con_proj p{
+    font-size: 12px;
+    width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 800px){
+.rgt img{
+    display: none;
+}
+
+.tag{
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width: 700px){
+
+.lat-sec{
+    display: block;
+}
+
+.post-cont{
+    width: 100%;
+}
+
+.foot-bar{
+    display: block;
+}
+.foot-bar img{
+    margin-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width: 600px){
+#title{
+    font-size: 40px;
+    line-height: 40px;
+}
+#sub-title{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sim-cont{
+    
+}
+
+.navbar{
+    padding-left: 10px;
+}
+.flex-it{
+    display: block
+}
+
+.proj-card{
+    padding: 20px;
+}
+
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+main{
+    padding: 15px;
+}
+
+.proj-card{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.proj-card .txt_con_proj h1{
+    font-size: 20px;
+    width: 100%;
+}
+
+.proj-card .txt_con_proj p{
+    font-size: 15px;
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 500px){
+.foot-bar img{
+    height: 80px;
+    width: 80px;
+}
+
+.foot-bar p{
+    width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 400px){
+.ic-img{
+    height: 40px;
+}
+#title{
+    width: 100%;
+}
+#sub-title{
+    width: 100%;
+}
+#sub-head{
+    font-size: 28px;
+}
+
+.tag{
+    font-size: 10px;
+}
+
+.proj-card .txt_con_proj h1{
+    font-size: 19px;
+    width: 100%;
+}
+
+.proj-card .txt_con_proj p{
+    font-size: 12px;
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 300px){
+
+.foot-bar h1{
+    font-size: 20px;
+}
+
+.foot-bar {
+    font-size: 15px;
+}
+
+.foot-bar img{
+    width: 50px;
+    height: 50px;
+}
+
+}
+
