@@ -1,0 +1,153 @@
+@media only screen and (max-width: 1000px){
+
+.right-section{
+    position: absolute;
+    left: 15px;
+    z-index: -1;
+    opacity: 0.3;
+}
+.left-section{
+    width: 100%;
+}
+
+.sy-content{
+    position: absolute;
+    width: 70%;
+    right: 10px;
+}
+
+}
+
+@media only screen and (max-width: 825px){
+.sy-content{
+    width: 100%;
+    right: 0;
+    padding: 10px 90px;
+}
+}
+
+@media only screen and (max-width: 750px){
+
+.scx{
+    overflow-x: scroll;
+    overflow-y: visible;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.c-container{
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    height: 400px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 50px;
+    overflow-y: visible;
+}
+
+.sy-section{
+    margin-top: 300px;
+    padding: 0;
+    display: block;
+}
+
+.sy-content {
+    padding: 35px;
+    position: relative;
+    margin-top: -300px;
+}
+
+.sy-section img{
+    width: 100%;
+    margin-right: 0;
+}
+
+.right-section, .right-section img{
+    width: 100%;
+    padding: 0;
+    margin-left: -20px;
+}
+
+.sy-content h2{
+    font-size: 40px;
+}
+
+.sy-content p{
+    font-size: 13px;
+}
+
+
+}
+
+@media only screen and (max-width: 600px){
+
+.c-container{
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+.sy-content{
+    margin-top: -150px;
+    padding: 10px;
+}
+
+.heading-i{
+    font-size: 50px;
+    font-size: 52px;
+}
+
+.hero-para{
+    margin-bottom: 5px;
+}
+
+.headr{
+    padding: 25px;
+}
+
+.c-card{
+    box-shadow: 0 8px 24px rgba(149,157,165,.2);
+}
+
+}
+
+@media only screen and (max-width: 550px){
+
+.heading-i{
+    font-size: 45px;
+    line-height: 48px;
+}
+
+.sy-section{
+    padding: 15px;
+    width: 100%;
+    margin-top: 300px;
+}
+
+.sy-content{
+    margin-top: -100px;
+    padding: 20px;
+
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.sy-content h2{
+    font-size: 30px;
+}
+
+.sy-content p{
+    font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 450px){
+
+.right-section{
+    margin-top:10px;
+}
+}

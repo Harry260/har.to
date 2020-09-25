@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: LibertinusR;
+}
+
+
+.navbar{
+    width: 100%;
+    padding: 5px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+    margin-top: 10px;
+}
+
+.navbar .fav{
+    width: 50px;
+}
+
+.headr{
+    display: flex;
+    padding: 15px 50px;
+}
+
+.button-fav{
+    background-color: #029e74;
+    padding: 6px 15.0px;
+    font-family: HelveticaR;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    padding-top: 9px;
+    border-radius: 4px;
+}
+
+.fav{
+    width: 50px;
+}
+
+main{}
+
+
+.left-section{
+    width: 50%;
+    z-index: 10;
+}
+.right-section{
+    width: 50%;
+}
+
+.right-section img{
+    width: 100%;
+}
+
+.heading-i{
+    font-family: HelveticaB;
+    font-size: 60px;
+    line-height: 60px;
+    color: #24292e;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.hero-para{
+    font-size: 18px;
+    color: #24292ebb;
+    font-family: LibertinusR;
+    width: 100%;
+    margin-bottom: 100px;
+}
+hr{
+    width: 150px;
+    background-color: #24292e;
+    height: 0.5px;
+    margin-top: 15px;
+}
+
+.c-container {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.prevent-cards{
+    padding:0px 50px;
+    text-align: left;
+}
+
+.prevent-cards h2{
+    font-size: 50px;
+    color: #24292e;
+    font-family: HelveticaB;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.c-card h3:hover{
+    color: white;
+}
+
+.prevent-cards p {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    color: grey;
+
+}
+
+.prevent-cards img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.circle {
+    position: absolute;
+    top: 150px;
+}
+  
+.stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+}
+  
+svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+.c-card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+}
+
+a{
+    text-decoration: none;
+}
+
+.c-card {
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    padding: 20px;
+
+}
+
+.c-card h3{
+    color:grey;
+    font-family: HelveticaB;
+    font-size: 30px;
+    line-height: 32px;
+}
+  
+.c-card:not(:first-child) {
+      margin-left: -50px;
+}
+  
+.c-card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+    margin-right: 50px;
+}
+  
+.c-card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+  
+.map-section{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: violet;
+}
+
+.foot-cut-card{
+    text-align: center;
+    background:rgba(255, 255, 255, 0.95);
+    color:#17141d;
+    padding: 20px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgba(149,157,165,.2);
+    border: 1px solid #e1e4e8;
+}
+
+.sy-section{
+    margin: 0 auto;
+    width: calc(100% - 100px);
+    padding: 25px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.sy-section img{
+    width:50%;
+    margin-right: 60px;
+}
+
+.sy-content{
+    width: 50%;
+    margin-top: 150px;
+    background:rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sy-content h2{
+    font-family: HelveticaB;
+    color: #17141d;
+    font-size: 50px;
+}
+
+.sy-content p{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.ptag{
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #029e74;
+    color: white;
+    font-family: HelveticaM;
+    display: table;
+}
+
+.footer{
+    display: flex;
+    background-color: #17141d;
+    padding: 20px;
+}
+.footer p{
+    text-align: center;
+    color: #e1e4e8 !important;
+    font-family: HelveticaM;
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+    font-family: HelveticaM;
+
+}
