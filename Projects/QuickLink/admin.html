@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+
+    <link rel="icon" href="resources/pumkin.png" sizes="16x16" type="image/png">
+
+    <title>Quick link Admin Panel</title>
+
+</head>
+
+<body>
+
+    <main class="admin-outer">
+        <div class="admin-panel">
+
+            <h1>Change</h1>
+            <p style="color: grey;">Change google meet link of a specific subject</p>
+
+            <div class="button-section">
+
+                <div class="select-outer">
+                    <select name="sub-sel" id="subject-select">
+    
+                        <option value="volvo">Maths</option>
+                        <option value="volvo">Biology</option>
+                        <option value="volvo">Chemistry</option>
+                        <option value="volvo">Physics</option>
+                        <option value="volvo">English</option>
+                        <option value="volvo">Social</option>
+                        <option value="volvo">Malayalam</option>
+                        <option value="volvo">Hindi</option>
+                        <option value="volvo">PT</option>
+                        <option value="volvo">Computer</option>
+    
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div>
+                <input id="link-input" type="text" placeholder="Google meet link" class="link-input"> 
+            </div>
+
+            <button 
+                title="Save changes" 
+                onclick="validate();" 
+                style="cursor: pointer;" 
+                class="save-btn" 
+            >
+            Save link
+            </button>
+
+        </div>
+
+        <a target="_blank" href="https://tiny.cc/harrytom" class="credit-link">Made by Harry Tom</a>
+    </main>
+
+        <!--firebase library cdn-->
+        <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+       
+        <!--Self-hosted scripts-->
+        <script src="js/config.js" type="text/JavaScript"></script>
+        <script src="js/script.js" type="text/JavaScript"></script>
+</body>
+</html>
