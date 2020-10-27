@@ -18,16 +18,16 @@ var dayNow = d.getDay();
 
 var now = getMinutesNow(); // Get current time (minute)
 
-var start_first = getMinutes('09:00');//Second period time
+var start_first = getMinutes('08:50');//Second period time
 var end_first = getMinutes('09:45');
 
-var start_second = getMinutes('10:30');//Second period time
+var start_second = getMinutes('10:20');//Second period time
 var end_second = getMinutes('11:15');
 
-var start_third = getMinutes('11:45');//Third period time
+var start_third = getMinutes('11:30');//Third period time
 var end_third = getMinutes('12:30');
 
-var start_last = getMinutes('13:30');//Last period time
+var start_last = getMinutes('13:20');//Last period time
 var end_last = getMinutes('14:15');
 
 
