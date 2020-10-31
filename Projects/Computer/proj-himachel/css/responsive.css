@@ -1,0 +1,46 @@
+/*Screenwidth 1200pixels*/
+@media (max-width:900px){
+    .main-box{
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: relative;
+        border-radius: 0;
+        
+    }
+
+    .gal-flex{
+        flex-wrap: nowrap;
+        height: 300px;
+        position: absolute;
+        width: 100%;
+        padding-right: 40px;
+        padding-top: 50px;
+        overflow-y: scroll;
+    }
+
+    .gal-flex img{
+        width: 1000px !important;
+    }
+}
+
+@media (max-width:720px){
+    .sub-hero{
+        font-size: 15px;
+    }
+    .gal-flex{
+        position: relative;
+        border-radius: 10px;
+    }
+    .main-box{
+        position: relative;
+        padding: 25px;
+    }
+}
+
+@media (max-width:550px){
+    .sub-hero{
+        font-size: 12px;
+    }
+}
