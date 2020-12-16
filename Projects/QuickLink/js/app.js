@@ -51,75 +51,75 @@ function _Redirect(){
             _openLink('hindi');
         }
         else if (getPeriod() == 2) {
-            _openLink('maths');
+            _openLink('pt');
         }
         else if (getPeriod() == 3) {
-            _openLink('english');
+            _openLink('biology');
         }
         else if (getPeriod() == 4) {
-            _openLink('malayalam');
+            _openLink('maths');
         }
     }
     else if (dayNow == 2) { //If Tue
 
         if (getPeriod() == 1) {
-            _openLink('chemistry');
+            _openLink('hindi');
         }
         else if (getPeriod() == 2) {
-            _openLink('malayalam');
+            _openLink('social');
         }
         else if (getPeriod() == 3) {
-            _openLink('maths');
+            _openLink('english');
         }
         else if (getPeriod() == 4) {
-            _openLink('hindi');
+            _openLink('physics');
         }
     }
     else if (dayNow == 3) { //If Wed
 
         if (getPeriod() == 1) {
-            _openLink('social');
+            _openLink('malayalam');
         }
         else if (getPeriod() == 2) {
-            _openLink('hindi');
+            _openLink('english');
         }
         else if (getPeriod() == 3) {
-            _openLink('pt');
+            _openLink('social');
         }
         else if (getPeriod() == 4) {
-            _openLink('english');
+            _openLink('maths');
         }
     
     }
     else if (dayNow == 4) { //If Thu
 
         if (getPeriod() == 1) {
-            _openLink('maths');
+            _openLink('malayalam');
         }
         else if (getPeriod() == 2) {
-            _openLink('biology');
+            _openLink('maths');
         }
         else if (getPeriod() == 3) {
-            _openLink('computer');
+            _openLink('social');
         }
         else if (getPeriod() == 4) {
-            _openLink('social');
+            _openLink('english');
         }
     
     }
     else if (dayNow == 5) { //If Fri
 
         if (getPeriod() == 1) {
-            _openLink('social');
+            _openLink('chemistry');
         }
         else if (getPeriod() == 2) {
-            _openLink('english');
+            _openLink('computer');
         }
         else if (getPeriod() == 3) {
             _openLink('maths');
         }
         else if (getPeriod() == 4) {
-            _openLink('physics');
+            _openLink('hindi');
         }
     }
     else { //If Holiday
